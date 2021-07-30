@@ -27,12 +27,12 @@ def getroutes(request):
         {
             'endpoint': '/contact/retrieve/',
             'method': 'GET',
-            'description': 'deletes the data'
+            'description': 'retrieves all the contact data'
         },
         {
             'endpoint': '/contact/id/retrieve/',
             'method': 'GET',
-            'description': 'deletes the data'
+            'description': 'retrieves the data of a contact by id'
         },
     ]
     return Response(routes)
