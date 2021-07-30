@@ -1,0 +1,199 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.landing{
+  font-family: Arial, Helvetica, sans-serif;
+  color: purple;
+  line-height: 1.6;
+  text-align: center;
+}
+/*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm landing page start here mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+.container_lan {
+  max-width: 960px;
+  margin :auto;
+  padding: 0 30px;
+  color: #fff;
+}
+#showcase {
+  height: 300px;
+}
+
+#showcase h1{
+  font-size: 50px;
+  line-height: 1.3;
+  position: relative;
+  animation-name: heading;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes heading {
+  0%{top: -50px;}
+  100%{top:200px;}
+}
+.test {
+  height: 300px;
+  width:300px;
+  border:2px solid red;
+  margin:auto;
+  margin-top:30px;
+  position: absolute;
+  animation-name: priest;
+}
+@keyframes priest{
+  0%{
+      left:-20%;
+  }
+  100%{
+      left:100%;
+  }
+}
+.container_lan p{
+  position:relative;
+  animation-name: conten;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes conten {
+  0%{left: -1000px;}
+  100%{left:0;}
+}
+.btn-l{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(158, 99, 158);
+  padding: 1rem 2rem;
+  border: 1px white solid;
+  margin-top: 40px;
+  opacity: 0;
+  animation-name: btn;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  transition-property: transform;
+  transition-duration: 1s;
+}
+.btn-l:hover{
+  transform: rotateY(360deg);
+}
+@keyframes btn {
+  0%{opacity: 0;}
+  100%{opacity:1;}
+}
+/*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm landing page end here mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+/*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm admission form start here mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+/*
+lable{
+  cursor: pointer;
+}
+#upload-photo{
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+*/
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color:white;
+  min-width: 50px;
+  text-align: center;
+  opacity:2px;
+}
+#form{
+  max-width:500px;
+  margin:auto;
+}
+.mybg{
+  background-image: url('images/g4.jpg');
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+  background-color: #fff;
+  color:green;
+}
+/*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm admission form end here mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+/*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm contact us page start here mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+.contact {
+  padding-top: 5px;
+}
+
+.contact .locat {
+  width: 100%;
+  background: #fff;
+}
+
+.contact .locat i {
+  font-size: 20px;
+  color: #5fcf80;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #ecf9f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .locat h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #37423b;
+}
+
+.contact .locat p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #657a6d;
+}
+
+.contact .locat .email, .contact .locat .phone {
+  margin-top: 40px;
+}
+.contact button[type="submit"] {
+  background: #5fcf80;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+/*-- about --*/
