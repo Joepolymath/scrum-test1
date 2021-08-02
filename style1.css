@@ -1,0 +1,106 @@
+*{
+    padding-top: 3px;
+   
+    box-sizing: border-box;
+    font-family: helvetica, cosmic sans-serif;
+    background-color: #f9faf9;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 1.5%;
+    
+
+    /**BODY background-color: #724777;**/
+}
+body {background-color: #f3faf5;}
+
+    /* NAVBAR STYLING BELOW-NOT APPLIED*/
+
+    /* #fa {
+    background-color: rgb(255, 255, 250);
+    animation-name: example;
+    animation-duration: 8s;
+    border-radius: 10%;
+    padding: 0.50rem;
+  }
+
+  @keyframes example {
+    from {background-color: rgb(197, 178, 178); color: rgb(82, 4, 155);}
+    to {background-color: rgb(255, 253, 225);}
+  }
+  a:hover{
+    background-color: rgb(185, 212, 224);
+  }
+  li{
+    color: black;
+    margin-left: 2%;
+  }
+
+  ul{
+    margin-left: 1%;
+  }
+  .btn{
+    margin-left: 1%;
+  }
+  .navbar{
+    width: 100%;
+    padding: 5px;
+  }
+@media screen and (max-width: 400px){
+    i{display: block; text-align: left;}
+  } */
+
+
+/* CONTACT FORM CONTAINER */
+.container{
+    align-items: center;
+    text-align: center;
+    padding-top: 3%;
+    border: 1px solid gray;
+    background-color: #4f2653;
+}
+
+
+p{padding-bottom: 0px;}
+
+.inputs{
+    text-align: center;
+    margin: 20px;  
+}
+
+div input, button, textarea{
+    margin: 10px;
+    width: 95%;
+    padding: 5px;
+    font-size: 1.2rem;
+    background-color: white;
+    border-radius: -10%;
+}
+button:hover{background: #45144b;}
+button{margin-bottom: 5%;}
+
+label p{text-align: left;}
+
+.form-check{text-align: left; }
+
+footer{
+    background-color: rgb(227, 239, 243);
+    width: 100%;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 0px;
+}
+/* .container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+.contact-box{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+} */
